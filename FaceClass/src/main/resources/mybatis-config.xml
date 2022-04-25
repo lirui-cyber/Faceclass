@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD SQL Map Config 3.0//EN"  
+                "http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>  
+    <typeAliases>  
+		<!--之后用于测试-->  
+		<!-- 使用typeAliases标签，定义别名；将com.faceclass.com.faceclasslass.entity.User 起别名为User; -->
+        <typeAlias type="com.faceclass.entity.User" alias="User" />
+        <typeAlias type="com.faceclass.entity.Manager" alias="Manager" />
+        <typeAlias type="com.faceclass.entity.SortsOne" alias="SortsOne" />
+        <typeAlias type="com.faceclass.entity.SortsTwo" alias="SortsTwo" />
+        <typeAlias type="com.faceclass.entity.Course" alias="Course" />
+        <typeAlias type="com.faceclass.entity.Chapter" alias="Chapter" />
+        <typeAlias type="com.faceclass.entity.SmallChapter" alias="SmallChapter" />
+        <typeAlias type="com.faceclass.entity.Comments" alias="Comments" />
+        <typeAlias type="com.faceclass.entity.Question" alias="Question" />
+        <typeAlias type="com.faceclass.entity.Note" alias="Note" />
+        <typeAlias type="com.faceclass.entity.Learn" alias="Learn" />
+        <typeAlias type="com.faceclass.entity.Reply" alias="Reply" />
+        <typeAlias type="com.faceclass.entity.Collect" alias="Collect" />
+        <typeAlias type="com.faceclass.entity.Fans" alias="Fans" />
+        <typeAlias type="com.faceclass.entity.UserDateNumber" alias="UserDateNumber" />
+        <!-- 批量扫描别名 -->
+		<!-- <package name="com.faceclasslass.com.faceclasslass.entity"/> -->
+    </typeAliases>  
+</configuration> 
